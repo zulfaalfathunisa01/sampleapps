@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Zulfa4"
         tools:targetApi="31">
         <activity
+            android:name=".create"
+            android:exported="false" />
+        <activity
             android:name=".halamanutama"
             android:exported="false" />
         <activity

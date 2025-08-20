@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/skyy">
+    android:background="@drawable/purl">
 
     <ImageView
         android:id="@+id/image"
@@ -81,7 +81,7 @@
         android:text="Login"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:backgroundTint="#A16FFF"
+        android:backgroundTint="#E1CEE5"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/txtpass"
         android:layout_marginTop="30dp"

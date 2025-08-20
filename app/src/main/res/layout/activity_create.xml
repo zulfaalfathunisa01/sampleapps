@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purl"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#F6E7FF">
+
+        <!-- Container Card (menggunakan background + radius inline) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_marginTop="24dp"
+            android:elevation="6dp"
+            android:background="#F6E7FF"
+            android:clipToOutline="true"
+            android:outlineProvider="background">
+
+            <!-- Judul -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Customer"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Input Nama -->
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Full Name"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#D0D7DE" />
+
+            <!-- Input Email -->
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#D0D7DE" />
+
+            <!-- Input Telepon -->
+            <EditText
+                android:id="@+id/input_phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Phone Number"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:inputType="phone"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#D0D7DE" />
+
+            <!-- Tombol Simpan -->
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Save Customer"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:backgroundTint="#E1CEE5"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
